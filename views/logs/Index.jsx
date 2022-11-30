@@ -16,7 +16,7 @@ class Index extends React.Component {
                             return (
                                 <li>
                                     The {" "}
-                                    <a style = {{color:blue}} href= {`/logs/${logs._id}`}>{log.name}</a>
+                                    <a style = {{color:"blue"}} href= {`/logs/${logs._id}`}>{log.title}</a>
                                     {" "}
                                     is {log.entry} <br />
                                     {

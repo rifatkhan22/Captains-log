@@ -6,9 +6,9 @@ const DefaultLayout = require("../layout/Default")
 class New extends React.Component {
     render() {
         return (
-            <DefaultLayout title = "New Page">
+            <DefaultLayout title = "New Ship Page">
                 <nav>
-                    {/* <a href = "/logs">Home Page</a> */}
+                    <a href = "/logs">Home Page</a>
                 </nav>
                 <form action = "/logs" method = "POST">
                     Title: <input type="text" name="title"/> <br />

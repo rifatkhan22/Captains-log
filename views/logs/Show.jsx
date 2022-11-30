@@ -8,8 +8,12 @@ class Show extends React.Component {
             <DefaultLayout title = {`${title} Show Page`}>
                 <div>
                     <p> The {title} has an entry of {entry}. </p>
-                    {shipIsBroken? "This ship is broken!": "This ship is not broken!"}
+                    {shipIsBroken? "This ship is broken!": "This ship is not broken!"} 
                 </div>
+                <nav>
+                <br />
+                    <a href = "/logs">Home Page</a>
+                </nav>
             </DefaultLayout>
         )
     }
